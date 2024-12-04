@@ -1,0 +1,52 @@
+body{
+    background-color: gray;
+}
+  .nav-link {
+    background-color: beige;  /* Warna latar belakang tab tidak aktif */
+    color: #495057;             /* Warna teks tab tidak aktif */
+    border-color: transparent;  /* Hilangkan border bawah tab tidak aktif */
+  }
+  .nav-link:hover {
+    background-color: gray;  /* Warna latar belakang saat hover */
+    color: beige;               /* Warna teks saat hover */
+  }
+  
+.navbar-brand{ 
+    color: gray;
+}
+
+.container{
+    background-color: beige;
+    padding: 15px;
+}
+
+.section-menu{
+    padding: 15px;
+}
+.grid-item{
+    margin-bottom: 10px;
+    grid-row: auto;
+}
+.grid-item img{
+    margin-bottom: 20px;
+    height: 300px;
+    width: 250px;
+}
+.grid-item h4{
+   font-size: 16px;
+} 
+.grid-item h5{
+    font-size: 14px;
+    margin-bottom: 10px;
+} 
+.btn-primary{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-warning{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
